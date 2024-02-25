@@ -10,5 +10,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'site-adocao-de-animais-angular';
+  title = 'Site De Adoção De Animais - Angular';
 }
