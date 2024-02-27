@@ -1,0 +1,28 @@
+.header{
+    background-color: var(--light-orange);
+}
+
+.header-conteudo-titulo{
+    font-size: 4.5rem;
+    color: var(--blue);
+    font-family: "Oswald", sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.header-conteudo-paragrafo{
+    color: var(--orange);
+    font-weight: 500;
+}
+
+.header-conteudo-btn{
+    background-color: var(--blue);
+    cursor: pointer;
+    border: 2px groove #3a54b4;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.header-conteudo-btn:hover{
+    background-color: var(--orange);
+    box-shadow: rgb(58, 84, 180) 0px 2px 4px, rgb(58, 84, 180) 0px 7px 13px -3px, rgb(58, 84, 180) 0px -3px 0px inset; 
+}
