@@ -1,0 +1,31 @@
+.footer{
+    background-color: var(--light-blue);
+}
+
+h5{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.social-icon{
+    cursor: pointer;
+}
+
+.social-icon:hover{
+    color: var(--blue);
+}
+
+.btn-newsletter{
+    width: 200px;
+    background-color: var(--blue);
+    cursor: pointer;
+    border: 2px groove #3a54b4;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.btn-newsletter:hover{
+    background-color: var(--orange);
+    box-shadow: rgb(58, 84, 180) 0px 2px 4px, rgb(58, 84, 180) 0px 7px 13px -3px, rgb(58, 84, 180) 0px -3px 0px inset; 
+}
