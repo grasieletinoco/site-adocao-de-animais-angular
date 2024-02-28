@@ -1,1 +1,19 @@
-<p>card-dog works!</p>
+<section class="cards-container row mb-5">
+
+    <h2 class=" text-center mb-5 mt-5">Cachorros para Adoção <span [innerHTML]="iconDog"></span> </h2>
+
+    <div class="cards col-md-3 mb-3 text-center" *ngFor="let item of cardCachorro">
+
+        <div class="card-dog col">
+            <div class="card col">
+                <img [src]="item.img" class="card-img-top" alt="chachorro">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.nome}}</h5>
+                    <p class="card-text">{{item.genero}}</p>
+                    <a href="#" class="btn btn-primary">Adotar</a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</section>
