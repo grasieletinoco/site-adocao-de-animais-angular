@@ -1,0 +1,32 @@
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards-container h2{
+    font-family: "Oswald", sans-serif;
+    color: var(--blue);
+    font-size: 2.5rem;
+}
+
+.card{
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card h5{
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.card:hover{
+    box-shadow: #9fc7c7 0px 3px 8px;
+}
+
+.cards{
+    width: 350px;
+}
