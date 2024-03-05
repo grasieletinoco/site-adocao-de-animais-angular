@@ -26,3 +26,8 @@
     background-color: var(--orange);
     box-shadow: rgb(58, 84, 180) 0px 2px 4px, rgb(58, 84, 180) 0px 7px 13px -3px, rgb(58, 84, 180) 0px -3px 0px inset; 
 }
+
+.header-conteudo-btn a{
+    text-decoration: none;
+    color: var(--light-gray);
+}
