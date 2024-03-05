@@ -1,0 +1,46 @@
+.card-adocao-conteudo{
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+
+.card-adocao{
+    background-color: var(--gray);
+    padding: 4rem;
+}
+
+h2{
+    font-family: "Oswald", sans-serif;
+    color: var(--blue);
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h5{
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.card-dog{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../../../assets/adocao-cachorro.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-cat{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../../../assets/adocao-gato.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-body{
+    padding: 35px;
+    color: var(--light-gray);
+    text-align: center;
+}

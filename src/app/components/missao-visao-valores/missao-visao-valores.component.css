@@ -1,0 +1,24 @@
+.missao-visao-valores-conteudo{
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+
+.missao-visao-valores-card{
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+.missao-visao-valores-card img{
+    width: 120px;
+    height: 120px;
+}
+
+.missao-visao-valores-card p{
+    text-align: left;
+}
+
+.missao-visao-valores-card h3{
+    font-family: "Oswald", sans-serif;
+    color: var(--blue);
+}
