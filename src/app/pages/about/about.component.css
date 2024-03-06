@@ -1,0 +1,16 @@
+.sobre-nos{
+    padding: 4rem;
+}
+
+.sobre-nos-conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: "Oswald", sans-serif;
+    color: var(--blue);
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
