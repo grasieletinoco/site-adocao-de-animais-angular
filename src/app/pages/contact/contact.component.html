@@ -1,1 +1,51 @@
-<p>contact works!</p>
+<app-navbar></app-navbar>
+
+<section class="contato">
+  
+  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+
+    <div class="row align-items-center g-lg-12 py-5">
+
+      <div class="col-lg-7">
+        <div class="col-lg-12 text-lg-start">
+          <h2 class="display-4 fw-bold lh-1 mb-3">Contato <span [innerHTML]="iconPaw"></span></h2>
+          <p class="col-lg-10">Seja bem-vindo à nossa página de contato! Na nossa missão de proteger e cuidar dos animais, sua colaboração é fundamental. Estamos sempre prontos para ouvir você e responder a todas as suas dúvidas, sugestões ou solicitações.</p>
+          <p class="col-lg-10">Se você tem interesse em adotar um dos nossos animais resgatados, apadrinhar um peludinho que ainda aguarda por um lar permanente, tornar-se um voluntário(a), oferecer um lar temporário amoroso, contribuir com ajuda financeira para os nossos projetos, estabelecer uma parceria em prol dos animais ou deseja colaborar de outras formas, por favor, preencha o formulário abaixo e entraremos em contato o mais breve possível.</p>
+          <p class="col-lg-10">Agradecemos por se interessar em fazer parte do nosso trabalho. Juntos, podemos criar um mundo mais compassivo para nossos amigos de quatro patas. Obrigado por escolher fazer parte dessa causa tão importante!</p>
+          <p class="col-lg-10">Atenciosamente, Equipe <span style="color: #3a54b4;font-weight: bold;">VIDA PET</span></p>
+        </div>
+      </div>
+  
+      <div class="col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-light">
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite Seu Email">
+          </div>
+          <div class="mb-3">
+            <select class="form-select">
+              <option value="">Assunto</option>
+              <option value="1">Quero Adotar</option>
+              <option value="2">Quero Apadrinhar</option>
+              <option value="3">Quero Ser Voluntário(a)</option>
+              <option value="3">Lar Temporário</option>
+              <option value="3">Ajuda Financeira</option>
+              <option value="3">Parceria</option>
+              <option value="3">Outros</option>
+            </select>
+          </div>             
+          <div class="mb-3">
+            <label for="textarea" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="textarea" placeholder="Digite Sua Mensagem"></textarea>
+          </div>             
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Enviar</button>
+        </form>
+      </div>
+  
+    </div>
+
+  </div>
+
+</section>
+
+<app-footer></app-footer>

@@ -1,0 +1,22 @@
+
+h2{
+    font-family: "Oswald", sans-serif;
+    color: var(--blue);
+    font-size: 2.5rem;
+
+    padding-bottom: 20px;
+}
+
+label{
+    color: var(--blue);
+    font-weight: 600;
+}
+
+input, select, textarea{
+    border: 1px ridge var(--light-blue);
+}
+
+::placeholder{
+    color: #b3b3b3;
+    font-size: 13px;
+}
